@@ -14,6 +14,7 @@ public class AppTest {
     void testHello(CapturedOutput capture) throws Exception {
         App.main(new String[]{});
         assertThat(capture.toString()).isEqualToIgnoringNewLines("Hello World!");
+        system.out.println("in App Test class");
        
     }
 }
