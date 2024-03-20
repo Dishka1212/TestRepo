@@ -15,6 +15,7 @@ public class AppTest {
         App.main(new String[]{});
         assertThat(capture.toString()).isEqualToIgnoringNewLines("Hello World!");
         system.out.println("in App Test class");
+        // added a comment
         system.out.println("from HP Branch");
        
     }
